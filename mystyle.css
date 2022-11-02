@@ -12,7 +12,7 @@ table {
     border:2px solid black;
 }
 body{
-    background-color: lightgray
+    background-color: burlywood;
 }
 input[type="button"]:active{
     background-color:olive;
