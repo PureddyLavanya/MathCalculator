@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Calculator</title>
+    <link rel="icon" type="image/x-icon" href="images/calci.png">
+    <link type="text/css" rel="stylesheet" href="mystyle.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.4/math.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.4/math.min.js"></script>
+</head>
+<body>
+    
+    <table id="calcu">
+        <tr>
+            <td colspan="3"><input type="text" id="result"></td>
+            <td><input type="button" value="c" onclick="clr()" /> </td>
+        </tr>
+        <tr>
+            <td><input type="button" value="1" class="c" onclick="set('1')" onkeydown="func(event)"> </td>
+            <td><input type="button" value="2" class="c" onclick="set('2')" onkeydown="func(event)"> </td>
+            <td><input type="button" value="3" class="c"onclick="set('3')" onkeydown="func(event)"> </td>
+            <td><input type="button" value="/" class="c"onclick="set('/')" onkeydown="func(event)"> </td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4" class="c" onclick="set('4')" onkeydown="func(event)"> </td>
+            <td><input type="button" value="5" class="c" onclick="set('5')" onkeydown="func(event)"> </td>
+            <td><input type="button" value="6" class="c" onclick="set('6')" onkeydown="func(event)"> </td>
+            <td><input type="button" value="*" class="c"onclick="set('*')" onkeydown="func(event)"> </td>
+        </tr>
+        <tr>
+            <td><input type="button" value="7"  class="c"onclick="set('7')" onkeydown="func(event)"> </td>
+            <td><input type="button" value="8" class="c"onclick="set('8')" onkeydown="func(event)"> </td>
+            <td><input type="button" value="9" class="c"onclick="set('9')" onkeydown="func(event)"> </td>
+            <td><input type="button" value="-" class="c"onclick="set('-')"onkeydown="func(event)"> </td>
+        </tr>
+        <tr>
+            <td><input type="button" value="0" class="c"onclick="set('0')" onkeydown="func(event)"> </td>
+            <td><input type="button" value="." class="c"onclick="set('.')" onkeydown="func(event)"> </td>
+            <td><input type="button" value="=" class="c"onclick="get()"> </td>
+  
+            <td><input type="button" value="+" onclick="set('+')" onkeydown="func(event)"> </td>
+        </tr>
+    </table>
+    <script src="main.js"></script>
+</body>
+</html>

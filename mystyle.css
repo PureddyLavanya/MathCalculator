@@ -1,0 +1,38 @@
+
+table {
+    border:5px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:170px;
+    margin-bottom:100px;
+    border-radius:6px;;
+}
+#result{
+    background-color: antiquewhite;
+    border:2px solid black;
+}
+body{
+    background-color: lightgray
+}
+input[type="button"]:active{
+    background-color:olive;
+}
+input[type="button"] {
+    width: 100%;
+    padding: 20px 40px;
+    background-color:teal;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    padding: 20px 30px;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid black;
+}
