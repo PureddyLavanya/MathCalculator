@@ -36,3 +36,12 @@ input[type="text"] {
     border-radius: 5px;
     border: 2px solid black;
 }
+@media only screen and (max-width:768px){
+    table {
+    border:5px solid black;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top:35%;
+    margin-bottom:35%;
+    border-radius:6px;;
+}
