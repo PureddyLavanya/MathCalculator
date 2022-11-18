@@ -43,5 +43,6 @@ input[type="text"] {
     margin-right: 35%;
     margin-top:35%;
     margin-bottom:35%;
-    border-radius:6px;;
+    border-radius:6px;
+    width:35%;
 }
