@@ -46,3 +46,24 @@ input[type="text"] {
     border-radius:6px;
     width:35%;
 }
+@media only screen and (max-width:600px){
+   table {
+    border:5px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:170px;
+    margin-bottom:100px;
+    border-radius:6px;;
+}
+    input[type="button"] {
+    width: 100%;
+    padding: 5px 10px;
+    background-color:teal;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+}
+
+    }
