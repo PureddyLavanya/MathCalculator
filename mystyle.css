@@ -49,11 +49,13 @@ input[type="text"] {
 @media only screen and (max-width:480px){
    table {
     border:5px solid black;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top:170px;
-    margin-bottom:100px;
-    border-radius:6px;;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:30px;
+    margin-bottom:30px;
+    border-radius:6px;
+    width:30%;
+     height:55%;
 }
     input[type="button"] {
     width: 70%;
